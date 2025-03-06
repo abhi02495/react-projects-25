@@ -1,0 +1,38 @@
+.wrapperHome {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnHome {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff6e7f 0%,
+    #bfe9ff 51%,
+    #ff6e7f 100%
+  );
+}
+.btn-grad {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

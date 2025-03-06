@@ -1,0 +1,76 @@
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center
+}
+
+.accordian {
+    width: 600px
+}
+
+.item {
+    background: #da291c;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    background-color: #FBE122;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+    height: auto;
+}
+
+.expand {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #FBE122;
+    color: #000000;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnDiv {
+    display: block;
+    margin-top: 20px;
+    width: auto;
+}
+
+.multiSelectBtn {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.multiSelectOn {
+    margin-top: 10px;
+    color: green;
+}
+
+.multiSelectOff {
+    margin-top: 10px;
+    color: red;
+}
