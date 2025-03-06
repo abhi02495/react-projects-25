@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# 25 React Projects
+This repository serves as a knowledge library for learning react.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project - 1 (Accordian)
+Expand and contract the section. Also, enable multi-select options so that more than 1 section can be expanded at a time.
 
-## Available Scripts
+## Project - 2 (RgbHex Color Generator)
+As the title suggests, this project helps in generating random rgb colors and hex colors. The body is painted in the random color which is generated using the designated buttons.
 
-In the project directory, you can run:
+## Configured with Typescript
+The repo is configured with Typescript. Use the below command to add Typescript in the existing project.
+> npm install --save-dev typescript @types/node @types/react @types/react-dom @types/jest
 
-### `npm start`
+Then add the tsconfig.json. Also, update the tsconfig.json with "allowImportingTsExtensions" : true
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Upcoming - tailwindcss to the project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## use below legends to update sections in Readme.md file
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### '###' use as h3
+### use text literal '`' sign to highlight a word.
+### use this for creating a hyperlink. `[<word>](<url>)`
+### use backslash for next line.
